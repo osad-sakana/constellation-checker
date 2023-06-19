@@ -16,6 +16,8 @@ export const Geo: React.FC<Props> = (props) => {
 
   const googleMapUrl = `http://maps.google.co.jp/maps?q=${props.position[1]},${props.position[0]}&output=embed&t=m&z=7&hl=ja`;
   return (
-    <iframe src={googleMapUrl} title="map" scrolling="no" width="auto" height="200px"></iframe>
+    <>
+      {/* <iframe src={googleMapUrl} title="map" scrolling="no" width="auto" height="200px"></iframe> */}
+    </>
   )
 };
