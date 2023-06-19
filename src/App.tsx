@@ -87,7 +87,7 @@ function App() {
             return (<Text>NOW LOADING</Text>)
           }
         })()}
-        <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(300px, 1fr))'>
+        <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
           {constellationData.map((constellation) => {
             return (
               <OneCard constellationData={constellation} key={constellation["id"].toString()} />
