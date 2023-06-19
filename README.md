@@ -1,5 +1,7 @@
 # 星座を見上げて | 現在地の今の星座を表示
 
+[アプリを開く](https://constellation-checker.vercel.app/)
+
 ![screenshot](./screenshot.png)
 
 ## 説明
